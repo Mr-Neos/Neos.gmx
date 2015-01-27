@@ -57,17 +57,17 @@ if(keyboard_check(vk_left)){
 
 if(keyboard_check(vk_up)){
    sprite_index=Bad_Men_Up;
-   x += 1;
+   y -= 1;
 }
 
 if(keyboard_check(vk_down)){
    sprite_index=Bad_Men_Down;
-   y -= 1;
+   y += 1;
 }
 
 if(keyboard_check(vk_right)){
    sprite_index=Bad_Men_Right;
-   y += 1
+   x += 1
 } 
 </string>
           </argument>
