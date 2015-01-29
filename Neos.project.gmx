@@ -11,7 +11,9 @@
     <sprite>sprites\Bad_Men_Right</sprite>
     <sprite>sprites\Bad_Men_Up</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Background__Probe</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_Bad_Men</object>
