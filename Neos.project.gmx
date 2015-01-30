@@ -11,6 +11,7 @@
     <sprite>sprites\Bad_Men_Right</sprite>
     <sprite>sprites\Bad_Men_Up</sprite>
     <sprite>sprites\Moving_Tree</sprite>
+    <sprite>sprites\Moving_Flower</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Background__Probe</background>
@@ -19,6 +20,7 @@
   <objects name="objects">
     <object>objects\obj_Bad_Men</object>
     <object>objects\obj_Tree</object>
+    <object>objects\obj_Flower</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
