@@ -33,8 +33,12 @@
         <object>objects\obj_Tree</object>
       </objects>
     </objects>
+    <objects name="System">
+      <object>objects\Gamestate</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_Introscene</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
