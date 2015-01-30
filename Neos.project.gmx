@@ -6,21 +6,33 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Bad_Men_Down</sprite>
-    <sprite>sprites\Bad_Men_Left</sprite>
-    <sprite>sprites\Bad_Men_Right</sprite>
-    <sprite>sprites\Bad_Men_Up</sprite>
-    <sprite>sprites\Moving_Tree</sprite>
-    <sprite>sprites\Moving_Flower</sprite>
+    <sprites name="Party">
+      <sprites name="Bad Men">
+        <sprite>sprites\Bad_Men_Down</sprite>
+        <sprite>sprites\Bad_Men_Left</sprite>
+        <sprite>sprites\Bad_Men_Right</sprite>
+        <sprite>sprites\Bad_Men_Up</sprite>
+      </sprites>
+      <sprites name="Nature">
+        <sprite>sprites\Moving_Tree</sprite>
+        <sprite>sprites\Moving_Flower</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\Background__Probe</background>
+    <backgrounds name="Enviroment">
+      <background>background\Background__Probe</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_Bad_Men</object>
-    <object>objects\obj_Tree</object>
-    <object>objects\obj_Flower</object>
+    <objects name="Party">
+      <object>objects\obj_Bad_Men</object>
+      <objects name="Natur">
+        <object>objects\obj_Flower</object>
+        <object>objects\obj_Tree</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
