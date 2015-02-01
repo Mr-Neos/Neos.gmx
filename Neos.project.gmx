@@ -18,6 +18,19 @@
         <sprite>sprites\Moving_Flower</sprite>
       </sprites>
     </sprites>
+    <sprites name="System">
+      <sprites name="Window">
+        <sprite>sprites\spr_Window_TL</sprite>
+        <sprite>sprites\spr_Window_T</sprite>
+        <sprite>sprites\spr_Window_TR</sprite>
+        <sprite>sprites\spr_Window_ML</sprite>
+        <sprite>sprites\spr_Window_MR</sprite>
+        <sprite>sprites\spr_Window_BL</sprite>
+        <sprite>sprites\spr_Window_B</sprite>
+        <sprite>sprites\spr_Window_BR</sprite>
+        <sprite>sprites\spr_Window_Base</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Enviroment">
@@ -35,6 +48,9 @@
     </objects>
     <objects name="System">
       <object>objects\Gamestate</object>
+      <objects name="Window">
+        <object>objects\obj_WIndow_Base</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
