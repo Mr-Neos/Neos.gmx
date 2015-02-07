@@ -76,8 +76,8 @@
     <instance objName="obj_Flower" x="112" y="432" name="inst_8021A5A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Flower" x="512" y="80" name="inst_F809C88E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Flower" x="320" y="96" name="inst_8EF755A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_NPC_BOB" x="208" y="160" name="inst_60C69F42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_NPC_BOBClone" x="112" y="144" name="inst_D817C827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_NPC_BOB" x="64" y="208" name="inst_60C69F42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Snowman" x="160" y="176" name="inst_19DBA0D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Background__Probe" x="0" y="0" w="32" h="32" xo="0" yo="512" id="10000001" name="inst_CA7352F4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

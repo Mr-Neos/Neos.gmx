@@ -30,8 +30,8 @@ global.gamespeed = 1.0;
 
 switches = ds_map_create();
 
-switches[?"introscene"] = "Hello Padre";
-show_message(switches[?"introscene"]);
+switches[?"quest_snowmanparty_started"]        = false;
+switches[?"quest_snowmanparty_gotsnowman"]     = false;
 </string>
           </argument>
         </arguments>

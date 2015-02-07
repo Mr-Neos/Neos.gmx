@@ -16,6 +16,9 @@
       <sprites name="Nature">
         <sprite>sprites\Moving_Tree</sprite>
         <sprite>sprites\Moving_Flower</sprite>
+        <sprites name="Misc">
+          <sprite>sprites\spr_Snowman</sprite>
+        </sprites>
       </sprites>
     </sprites>
     <sprites name="System">
@@ -49,10 +52,10 @@
   <objects name="objects">
     <objects name="Party">
       <object>objects\obj_Bad_Men</object>
-      <objects name="Natur">
-        <object>objects\obj_Flower</object>
-        <object>objects\obj_Tree</object>
-      </objects>
+    </objects>
+    <objects name="Nature">
+      <object>objects\obj_Flower</object>
+      <object>objects\obj_Tree</object>
     </objects>
     <objects name="System">
       <object>objects\Gamestate</object>
@@ -64,6 +67,13 @@
       <object>objects\obj_NPC_BOB</object>
       <object>objects\obj_NPC_BOBClone</object>
       <object>objects\obj_NPC_Base</object>
+    </objects>
+    <objects name="Quests">
+      <objects name="NPC Quests">
+        <objects name="Quest_BOB">
+          <object>objects\obj_Snowman</object>
+        </objects>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
