@@ -76,7 +76,7 @@ active = false;
           <argument>
             <kind>1</kind>
             <string>Gamestate.switches[? "quest_snowmanparty_gotsnowman"] = true;
-
+instance_destroy();
 </string>
           </argument>
         </arguments>

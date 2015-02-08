@@ -26,9 +26,12 @@
           <argument>
             <kind>1</kind>
             <string>var message = "Undifined NPC";
+var questmessage = "Undifined Quest NPC";
+var questsuccesmessage = "Undifined Quest Succes Message NPC";
 
 var hasquest = false;
 var quest = "";
+var questcondition = "";
 </string>
           </argument>
         </arguments>
@@ -81,13 +84,22 @@ if(dist &lt; 32){
  
     if(obj_Bad_Men.action ==true){
     
-    if(hasquest == true){
-        Gamestate.switches[? quest] = true;
-        show_debug_message("Quest Activated: " + quest)
-    }
+        if(hasquest == true){
+            if(Gamestate.switches[? questcondition]){
+                show_message(questsuccesmessage);
+                show_debug_message("Quest Completed: " + quest);
+            }else{
+                show_message(questmessage)
+                Gamestate.switches[? quest] = true;
+                show_debug_message("Quest Activated: " + quest);
+            }    
+        }else{
     
-       show_message(message)}
+            show_message(message);
+            }
        
+     }  
+
 }
 </string>
           </argument>

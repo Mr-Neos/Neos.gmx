@@ -29,7 +29,10 @@
 
 hasquest = true;
 quest = "quest_snowmanparty_started"
-message = "Hello Padre MIO yo soy BOB"
+questcondition = "quest_snowmanparty_gotsnowman"
+
+questmessage = "Hello Padre MIO yo soy BOB.....Oh carambolas!! se me ha perdido mi mejor amigo=( me ayuadas a encontrarlo??"
+questsuccesmessage = "Oh por la santisima madre teresa y los pegelagartos muchas gracias"
 </string>
           </argument>
         </arguments>
