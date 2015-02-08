@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>event_inherited();
 
-hasquest = false;
+hasquest = true;
 quest = "quest_snowmanparty_started"
 message = "Hello Padre MIO yo soy BOB"
 </string>

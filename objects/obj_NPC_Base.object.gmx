@@ -82,8 +82,8 @@ if(dist &lt; 32){
     if(obj_Bad_Men.action ==true){
     
     if(hasquest == true){
-    Gamestate.switches[? quest] = true;
-    show_debug_message("Quest Activated: " + quest)
+        Gamestate.switches[? quest] = true;
+        show_debug_message("Quest Activated: " + quest)
     }
     
        show_message(message)}
