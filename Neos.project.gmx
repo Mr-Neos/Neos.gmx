@@ -47,6 +47,19 @@
     <backgrounds name="Enviroment">
       <background>background\Background__Probe</background>
     </backgrounds>
+    <backgrounds name="Levels">
+      <backgrounds name="HomeCity">
+        <background>background\Map002_2_1</background>
+        <background>background\Map002_2_2</background>
+        <background>background\Map002_0_0</background>
+        <background>background\Map002_0_1</background>
+        <background>background\Map002_0_2</background>
+        <background>background\Map002_1_0</background>
+        <background>background\Map002_1_1</background>
+        <background>background\Map002_1_2</background>
+        <background>background\Map002_2_0</background>
+      </backgrounds>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -77,6 +90,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_HomeCity</room>
     <room>rooms\rm_Introscene</room>
     <room>rooms\room0</room>
   </rooms>
