@@ -3,6 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="6" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
@@ -21,6 +22,10 @@
         </sprites>
       </sprites>
     </sprites>
+    <sprites name="Collision">
+      <sprite>sprites\spr_Collosion_Off</sprite>
+      <sprite>sprites\spr_Collision</sprite>
+    </sprites>
     <sprites name="System">
       <sprites name="Window">
         <sprite>sprites\spr_Window_TL</sprite>
@@ -32,6 +37,10 @@
         <sprite>sprites\spr_Window_B</sprite>
         <sprite>sprites\spr_Window_BR</sprite>
         <sprite>sprites\spr_Window_Base</sprite>
+      </sprites>
+      <sprites name="Warp">
+        <sprite>sprites\spr_BadMen_Start</sprite>
+        <sprite>sprites\spr_Warp_Bad_Man</sprite>
       </sprites>
     </sprites>
     <sprites name="NPC">
@@ -59,6 +68,14 @@
         <background>background\Map002_1_2</background>
         <background>background\Map002_2_0</background>
       </backgrounds>
+      <backgrounds name="Pub">
+        <background>background\Pub</background>
+        <background>background\Map003_</background>
+        <background>background\Map003_0_0</background>
+        <background>background\Map003_1_0</background>
+        <background>background\Map003_1_1</background>
+        <background>background\Map003_2_0</background>
+      </backgrounds>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -75,6 +92,14 @@
       <objects name="Window">
         <object>objects\obj_WIndow_Base</object>
       </objects>
+      <object>objects\obj_Collision</object>
+      <objects name="Warp">
+        <object>objects\obj_Bad_Men_Start</object>
+        <object>objects\obj_Warp_base</object>
+        <objects name="Locations">
+          <object>objects\obj_Warp_Pub</object>
+        </objects>
+      </objects>
     </objects>
     <objects name="NPC">
       <object>objects\obj_NPC_BOB</object>
@@ -90,8 +115,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_HomeCity</room>
     <room>rooms\rm_Introscene</room>
+    <room>rooms\rm_HomeCity</room>
+    <room>rooms\rm_Pub</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
