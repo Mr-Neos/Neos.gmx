@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>///Initialise IVARS
 global.gamespeed = 1.0;
+global.dest_x = 288;
+global.dest_y = 1184;
 
 switches = ds_map_create();
 

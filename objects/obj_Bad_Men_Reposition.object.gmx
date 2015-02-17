@@ -2,10 +2,10 @@
 <object>
   <spriteName>spr_BadMen_Start</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_Warp_base</parentName>
+  <parentName>obj_Warp</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_Bad_Men.phy_position_x = x;
-obj_Bad_Men.phy_position_y = y;
+            <string>obj_Bad_Men.phy_position_x = global.dest_x;
+obj_Bad_Men.phy_position_y = global.dest_y;
 </string>
           </argument>
         </arguments>

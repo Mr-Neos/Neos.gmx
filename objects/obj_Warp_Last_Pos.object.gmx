@@ -5,10 +5,10 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_Warp</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
+    <event eventtype="4" ename="obj_Bad_Men">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,8 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
-dest_room = rm_Pub;
+            <string>room_goto(Gamestate.switches[?"last_pos_x"])
+obj_Bad_Men.phy_position_x = Gamestate.switches[?"last_pos_x"]
+obj_Bad_Men.phy_position_y = Gamestate.switches[?"last_pos_y"]
 </string>
           </argument>
         </arguments>
@@ -36,7 +37,7 @@ dest_room = rm_Pub;
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>-1</PhysicsObjectSensor>
   <PhysicsObjectShape>1</PhysicsObjectShape>
-  <PhysicsObjectDensity>0</PhysicsObjectDensity>
+  <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
