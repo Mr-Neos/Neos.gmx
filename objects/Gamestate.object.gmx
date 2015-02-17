@@ -55,7 +55,7 @@ switches[?"quest_snowmanparty_gotsnowman"]     = false;
           <argument>
             <kind>1</kind>
             <string>///Start Game
-room_goto_next();
+//room_goto_next();
 </string>
           </argument>
         </arguments>

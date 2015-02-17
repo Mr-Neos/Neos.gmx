@@ -49,10 +49,10 @@
           <argument>
             <kind>1</kind>
             <string>if(start == true){
-    image_yscale = lerp(image_yscale, target_scale, 0.4);
+    image_yscale = lerp(image_yscale, target_yscale, 0.4);
     
-    progress = image_yscale / target_scale
-    z = lerp(start_y, target_y, progress)
+    progress = image_yscale / target_yscale
+    y = lerp(start_y, target_y, progress)
 }
 </string>
           </argument>
