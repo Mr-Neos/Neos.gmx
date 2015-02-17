@@ -28,7 +28,7 @@
             <string>///Initialise IVARS
 global.gamespeed = 1.0;
 global.dest_x = 288;
-global.dest_y = 1184;
+global.dest_y = 1152;
 
 switches = ds_map_create();
 
@@ -55,7 +55,7 @@ switches[?"quest_snowmanparty_gotsnowman"]     = false;
           <argument>
             <kind>1</kind>
             <string>///Start Game
-//room_goto_next();
+room_goto_next();
 </string>
           </argument>
         </arguments>

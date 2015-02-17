@@ -50,6 +50,13 @@
         <sprite>sprites\spr_BOB_Down</sprite>
         <sprite>sprites\spr_BOB_Up</sprite>
       </sprites>
+      <sprites name="Guard">
+        <sprite>sprites\spr_Guard_Down</sprite>
+        <sprite>sprites\spr_Guard_Left</sprite>
+        <sprite>sprites\spr_Guard_Right</sprite>
+        <sprite>sprites\spr_Guard_Up</sprite>
+      </sprites>
+      <sprite>sprites\spr_Follow_Target</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -78,7 +85,9 @@
       </backgrounds>
     </backgrounds>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_Guard</path>
+  </paths>
   <objects name="objects">
     <objects name="Party">
       <object>objects\obj_Bad_Men</object>
@@ -88,24 +97,22 @@
       <object>objects\obj_Tree</object>
     </objects>
     <objects name="System">
+      <object>objects\obj_Collision</object>
       <object>objects\Gamestate</object>
       <objects name="Window">
         <object>objects\obj_WIndow_Base</object>
       </objects>
-      <object>objects\obj_Collision</object>
       <objects name="Warp">
         <object>objects\obj_Bad_Men_Reposition</object>
         <object>objects\obj_Warp</object>
-        <objects name="Locations">
-          <object>objects\obj_Warp_Pub</object>
-          <object>objects\obj_Warp_Last_Pos</object>
-        </objects>
       </objects>
     </objects>
     <objects name="NPC">
-      <object>objects\obj_NPC_BOB</object>
-      <object>objects\obj_NPC_BOBClone</object>
       <object>objects\obj_NPC_Base</object>
+      <object>objects\obj_Follow_Target</object>
+      <object>objects\obj_NPC_BOB</object>
+      <object>objects\obj_NPC_Guard</object>
+      <object>objects\obj_NPC_BOBClone</object>
     </objects>
     <objects name="Quests">
       <objects name="NPC Quests">

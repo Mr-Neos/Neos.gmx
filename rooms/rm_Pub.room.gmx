@@ -145,7 +145,7 @@
     <instance objName="obj_Collision" x="288" y="160" name="inst_B6FDBE53" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="240" y="160" name="inst_272670F2" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Bad_Men_Reposition" x="0" y="0" name="inst_15DF9AFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Warp" x="640" y="608" name="inst_820C2530" locked="0" code="var dest_room = rm_HomeCity;&#xA;var dest_x = 304;&#xA;var dest_y = 1142;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Warp" x="640" y="608" name="inst_820C2530" locked="0" code="event_inherited();&#xA;dest_room = rm_HomeCity;&#xA;dest_x = 304;&#xA;dest_y = 1142;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Map003_0_0" x="0" y="0" w="288" h="352" xo="0" yo="0" id="10000761" name="inst_F60D4A15" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
