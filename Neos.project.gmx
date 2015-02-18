@@ -58,6 +58,7 @@
       </sprites>
       <sprite>sprites\spr_Follow_Target</sprite>
     </sprites>
+    <sprites name="Enemies"/>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Enviroment">
@@ -82,6 +83,15 @@
         <background>background\Map003_1_0</background>
         <background>background\Map003_1_1</background>
         <background>background\Map003_2_0</background>
+      </backgrounds>
+      <backgrounds name="Forest">
+        <background>background\Map005_1_1</background>
+        <background>background\Map005_2_0</background>
+        <background>background\Map005_2_1</background>
+        <background>background\Map005</background>
+        <background>background\Map005_0_0</background>
+        <background>background\Map005_1_0</background>
+        <background>background\Map005_0_1</background>
       </backgrounds>
     </backgrounds>
   </backgrounds>
@@ -126,6 +136,7 @@
     <room>rooms\rm_Introscene</room>
     <room>rooms\rm_HomeCity</room>
     <room>rooms\rm_Pub</room>
+    <room>rooms\rm_Forest</room>
     <room>rooms\room0</room>
   </rooms>
   <help>
