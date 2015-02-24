@@ -67,6 +67,12 @@
         <sprite>sprites\spr_Ghost_Up</sprite>
       </sprites>
     </sprites>
+    <sprites name="Attacks">
+      <sprite>sprites\spr_Attack_Fire</sprite>
+      <sprite>sprites\spr_Attack_Ice</sprite>
+      <sprite>sprites\spr_Attack_Lightning</sprite>
+      <sprite>sprites\spr_Attack_Magic</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Enviroment">
@@ -145,6 +151,12 @@
         <object>objects\obj_Forest_Ghost</object>
       </objects>
       <object>objects\Monster_Collision</object>
+    </objects>
+    <objects name="Attacks">
+      <object>objects\obj_Attack_Fire</object>
+      <object>objects\obj_Attack_Ice</object>
+      <object>objects\obj_Attack_Lightning</object>
+      <object>objects\obj_Attack_Magic</object>
     </objects>
   </objects>
   <rooms name="rooms">

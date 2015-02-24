@@ -16,18 +16,24 @@
     <option_android_arch_armv5>true</option_android_arch_armv5>
     <option_android_arch_armv7>true</option_android_arch_armv7>
     <option_android_arch_mips>true</option_android_arch_mips>
-    <option_android_arch_mipsr2>false</option_android_arch_mipsr2>
-    <option_android_arch_mipsr2sf>false</option_android_arch_mipsr2sf>
+    <option_android_arch_mipsr2>true</option_android_arch_mipsr2>
+    <option_android_arch_mipsr2sf>true</option_android_arch_mipsr2sf>
     <option_android_arch_x86>true</option_android_arch_x86>
     <option_android_build_version>0</option_android_build_version>
     <option_android_color_depth>0</option_android_color_depth>
     <option_android_display_name>Neos</option_android_display_name>
+    <option_android_flurry_enable>false</option_android_flurry_enable>
+    <option_android_flurry_id></option_android_flurry_id>
     <option_android_google_analytics_enable>false</option_android_google_analytics_enable>
     <option_android_google_play>false</option_android_google_play>
     <option_android_google_play_id></option_android_google_play_id>
     <option_android_google_tracking_id></option_android_google_tracking_id>
     <option_android_iap_suppress_toast>false</option_android_iap_suppress_toast>
-    <option_android_icade_support>true</option_android_icade_support>
+    <option_android_icade_support>false</option_android_icade_support>
+    <option_android_icon_170>icon170.png</option_android_icon_170>
+    <option_android_icon_36>icon36.png</option_android_icon_36>
+    <option_android_icon_48>icon48.png</option_android_icon_48>
+    <option_android_icon_72>icon72.png</option_android_icon_72>
     <option_android_icon_hdpi>Configs\Default\android\icons\icon_hdpi.png</option_android_icon_hdpi>
     <option_android_icon_ldpi>Configs\Default\android\icons\icon_ldpi.png</option_android_icon_ldpi>
     <option_android_icon_mdpi>Configs\Default\android\icons\icon_mdpi.png</option_android_icon_mdpi>
@@ -78,8 +84,8 @@
     <option_frequency>0</option_frequency>
     <option_frontimage>nil</option_frontimage>
     <option_fullscreen>false</option_fullscreen>
-    <option_gameguid>{49BCD541-8200-4142-9550-2DC997FB4422}</option_gameguid>
-    <option_gameid>559613275</option_gameid>
+    <option_gameguid>{A7B2A2F9-A4E6-4251-AAA4-A7E6238B65BE}</option_gameguid>
+    <option_gameid>462719472</option_gameid>
     <option_haptic_effects>false</option_haptic_effects>
     <option_hasloadimage>false</option_hasloadimage>
     <option_helpkey>true</option_helpkey>
@@ -281,11 +287,11 @@
     <option_tizen_network_urls></option_tizen_network_urls>
     <option_tizen_orientation>0</option_tizen_orientation>
     <option_tizen_push_enable>false</option_tizen_push_enable>
-    <option_tizen_scaling>0</option_tizen_scaling>
+    <option_tizen_scaling>1</option_tizen_scaling>
     <option_tizen_splash_png>Configs\Default\tizen\splash.png</option_tizen_splash_png>
     <option_tizen_texture_page>1024</option_tizen_texture_page>
     <option_tizen_usesplash>false</option_tizen_usesplash>
-    <option_use_new_audio>true</option_use_new_audio>
+    <option_use_new_audio>false</option_use_new_audio>
     <option_variableerrors>false</option_variableerrors>
     <option_version>100</option_version>
     <option_version_build>0</option_version_build>

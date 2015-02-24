@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>///Initialise IVARS
 global.gamespeed = 1.0;
-global.dest_x = 288;
-global.dest_y = 1152;
+global.dest_x = 688;
+global.dest_y = 1328;
 
 switches = ds_map_create();
 
@@ -78,11 +78,13 @@ room_goto_next();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with(instance_create(mouse_x - 32,mouse_y - 32,obj_WIndow_Base)){
+            <string>/*
+with(instance_create(mouse_x - 32,mouse_y - 32,obj_WIndow_Base)){
     image_xscale = 1 + random(4);
     image_yscale = 1 + random(2);
     event_user(0);
-}                                           
+} 
+*/                                
 </string>
           </argument>
         </arguments>
