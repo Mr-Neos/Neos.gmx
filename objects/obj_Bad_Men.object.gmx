@@ -29,7 +29,7 @@
 walk_speed = 0.1;
 action = false;     
 
-atack_type = 1;
+attack_type = 1;
 </string>
           </argument>
         </arguments>
@@ -272,7 +272,7 @@ force_y = lengthdir_y(force, other.dir);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(10,10, "Atack Type: " + string(atack_type));
+            <string>draw_text(10,10, "Atack Type: " + string(attack_type));
 </string>
           </argument>
         </arguments>
@@ -295,7 +295,7 @@ force_y = lengthdir_y(force, other.dir);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>atack_type = 4;
+            <string>attack_type = 4;
 </string>
           </argument>
         </arguments>
@@ -318,7 +318,7 @@ force_y = lengthdir_y(force, other.dir);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>atack_type = 3;
+            <string>attack_type = 3;
 </string>
           </argument>
         </arguments>
@@ -341,7 +341,7 @@ force_y = lengthdir_y(force, other.dir);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>atack_type = 2;
+            <string>attack_type = 2;
 </string>
           </argument>
         </arguments>
@@ -364,7 +364,7 @@ force_y = lengthdir_y(force, other.dir);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>atack_type = 1;
+            <string>attack_type = 1;
 </string>
           </argument>
         </arguments>
