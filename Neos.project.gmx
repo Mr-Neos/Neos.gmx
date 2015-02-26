@@ -72,6 +72,7 @@
       <sprite>sprites\spr_Attack_Ice</sprite>
       <sprite>sprites\spr_Attack_Lightning</sprite>
       <sprite>sprites\spr_Attack_Magic</sprite>
+      <sprite>sprites\spr_Attack_Ghost</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -157,6 +158,7 @@
       <object>objects\obj_Attack_Ice</object>
       <object>objects\obj_Attack_Lightning</object>
       <object>objects\obj_Attack_Magic</object>
+      <object>objects\obj_Attack_Ghost</object>
     </objects>
   </objects>
   <rooms name="rooms">

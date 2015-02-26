@@ -25,11 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed= 0.1;
+            <string>phy_fixed_rotation = true;
+
+image_speed= 0.1;
 walk_speed = 0.1;
 action = false;     
 
 attack_type = 1;
+
+max_hp = 100;
+hp = max_hp;
 </string>
           </argument>
         </arguments>
@@ -273,6 +278,7 @@ force_y = lengthdir_y(force, other.dir);
           <argument>
             <kind>1</kind>
             <string>draw_text(10,10, "Atack Type: " + string(attack_type));
+draw_text(10,25, "Health: " + string(hp) + " / " + string(max_hp));
 </string>
           </argument>
         </arguments>
@@ -378,7 +384,7 @@ force_y = lengthdir_y(force, other.dir);
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>99.9000015258789</PhysicsObjectLinearDamping>
-  <PhysicsObjectAngularDamping>99.9000015258789</PhysicsObjectAngularDamping>
+  <PhysicsObjectAngularDamping>99</PhysicsObjectAngularDamping>
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
