@@ -19,6 +19,9 @@
         <sprite>sprites\Moving_Flower</sprite>
         <sprites name="Misc">
           <sprite>sprites\spr_Snowman</sprite>
+          <sprite>sprites\spr_Gem</sprite>
+          <sprite>sprites\spr_Gem_Glow</sprite>
+          <sprite>sprites\spr_Door</sprite>
         </sprites>
       </sprites>
     </sprites>
@@ -26,6 +29,7 @@
       <sprite>sprites\spr_Collosion_Off</sprite>
       <sprite>sprites\spr_Collision</sprite>
       <sprite>sprites\spr_Monster_Collision</sprite>
+      <sprite>sprites\spr__Event_Collision</sprite>
     </sprites>
     <sprites name="System">
       <sprites name="Window">
@@ -73,6 +77,10 @@
       <sprite>sprites\spr_Attack_Lightning</sprite>
       <sprite>sprites\spr_Attack_Magic</sprite>
       <sprite>sprites\spr_Attack_Ghost</sprite>
+      <sprite>sprites\sprite42</sprite>
+    </sprites>
+    <sprites name="Boss">
+      <sprite>sprites\spr_MBOBOL</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -160,6 +168,18 @@
       <object>objects\obj_Attack_Magic</object>
       <object>objects\obj_Attack_Ghost</object>
     </objects>
+    <objects name="Bosses">
+      <objects name="Cave">
+        <objects name="Boss">
+          <object>objects\obj_boss_MBOB</object>
+        </objects>
+        <objects name="Misc">
+          <object>objects\obj_Evil_Gem</object>
+          <object>objects\obj_Gate</object>
+          <object>objects\obj_Start_Boss</object>
+        </objects>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Introscene</room>
@@ -167,6 +187,7 @@
     <room>rooms\rm_Pub</room>
     <room>rooms\rm_Forest</room>
     <room>rooms\room0</room>
+    <room>rooms\rm_cave</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

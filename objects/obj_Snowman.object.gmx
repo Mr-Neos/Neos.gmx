@@ -51,7 +51,9 @@ active = false;
           <argument>
             <kind>1</kind>
             <string>if(Gamestate.switches[?"quest_snowmanparty_started"] == true){
-    active = true;
+  
+      active = true;
+
 }
 </string>
           </argument>

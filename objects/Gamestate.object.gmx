@@ -34,6 +34,8 @@ switches = ds_map_create();
 
 switches[?"quest_snowmanparty_started"]        = false;
 switches[?"quest_snowmanparty_gotsnowman"]     = false;
+
+switches[?"boss_room_entered"]                 = false;
 </string>
           </argument>
         </arguments>
