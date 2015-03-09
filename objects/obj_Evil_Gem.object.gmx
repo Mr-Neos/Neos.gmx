@@ -50,15 +50,20 @@ glow_a = 0;
           <argument>
             <kind>1</kind>
             <string>///Fire Event;
+
 glow = false;
 
-hero_dir = point_direction(x,y, obj_Bad_Men.phy_position_x, obj_Bad_Men.phy_position_y);
+hero_dir = point_direction(x, y, obj_Bad_Men.phy_position_x, obj_Bad_Men.phy_position_y);
+
 spawn_x = lengthdir_x(16, hero_dir);
 spawn_y = lengthdir_y(16, hero_dir);
+
 attack = instance_create(x + spawn_x, y + spawn_y, obj_Attack_Laser);
-with(attack){
-force_x = lengthdir_x(force, other.hero_dir);
-force_y = lengthdir_y(force, other.hero_dir);
+
+with(attack)
+{
+    force_x = lengthdir_x(force, other.hero_dir);
+    force_y = lengthdir_y(force, other.hero_dir);
 
     phy_rotation = -other.hero_dir;
     physics_apply_impulse(x, y, force_x, force_y);
@@ -110,7 +115,8 @@ alarm[1] = 120;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(Gamestate.switches[?"boss_room_entered"] == true){
+            <string>if(Gamestate.switches[?"boss_room_entered"] &amp;&amp; !Gamestate.switches[? "boss_room_complete"])
+{
     if(alarm[0] &lt; 0){
         alarm[0] = 240 + random(20);
     }
@@ -144,6 +150,7 @@ if(glow){
           <argument>
             <kind>1</kind>
             <string>draw_sprite_ext(spr_Gem_Glow,0,x,y,1,1,0,c_white,glow_a);
+
 draw_self();
 </string>
           </argument>

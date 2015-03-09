@@ -182,6 +182,9 @@
       </objects>
     </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline0</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\rm_Introscene</room>
     <room>rooms\rm_HomeCity</room>

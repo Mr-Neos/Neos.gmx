@@ -49,8 +49,12 @@ image_alpha = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(Gamestate.switches[?"boss_room_entered"] == true){
+            <string>if(Gamestate.switches[?"boss_room_entered"] &amp;&amp; !Gamestate.switches[? "boss_room_complete"])
+{
     image_alpha = lerp(image_alpha, 1, 0.1)
+}else{
+phy_active = false;
+image_alpha = lerp(image_alpha, 0, 0.1)
 }
 </string>
           </argument>
