@@ -77,7 +77,7 @@
       <sprite>sprites\spr_Attack_Lightning</sprite>
       <sprite>sprites\spr_Attack_Magic</sprite>
       <sprite>sprites\spr_Attack_Ghost</sprite>
-      <sprite>sprites\sprite42</sprite>
+      <sprite>sprites\spr_Gem_Attack</sprite>
     </sprites>
     <sprites name="Boss">
       <sprite>sprites\spr_MBOBOL</sprite>
@@ -167,6 +167,7 @@
       <object>objects\obj_Attack_Lightning</object>
       <object>objects\obj_Attack_Magic</object>
       <object>objects\obj_Attack_Ghost</object>
+      <object>objects\obj_Attack_Laser</object>
     </objects>
     <objects name="Bosses">
       <objects name="Cave">
