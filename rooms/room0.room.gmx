@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Bad_Men" x="160" y="128" name="inst_8D406500" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bad_Men" x="192" y="160" name="inst_8D406500" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tree" x="240" y="64" name="inst_A1F6C183" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tree" x="400" y="144" name="inst_54351EDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tree" x="432" y="352" name="inst_FE320248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -76,8 +76,7 @@
     <instance objName="obj_Flower" x="112" y="432" name="inst_8021A5A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Flower" x="512" y="80" name="inst_F809C88E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Flower" x="320" y="96" name="inst_8EF755A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_NPC_BOB" x="64" y="208" name="inst_60C69F42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Snowman" x="160" y="176" name="inst_19DBA0D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bad_Men_Reposition" x="0" y="0" name="inst_F86A7F8B" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Background__Probe" x="0" y="0" w="32" h="32" xo="0" yo="512" id="10000001" name="inst_CA7352F4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -250,7 +249,6 @@
     <tile bgName="Background__Probe" x="288" y="96" w="32" h="32" xo="16" yo="528" id="10000212" name="inst_2C2EF985" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="320" y="96" w="32" h="32" xo="16" yo="528" id="10000213" name="inst_F2212E01" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="352" y="96" w="32" h="32" xo="16" yo="528" id="10000214" name="inst_1279F5C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Background__Probe" x="384" y="96" w="32" h="32" xo="16" yo="528" id="10000215" name="inst_0BF1E297" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="416" y="128" w="32" h="32" xo="16" yo="528" id="10000216" name="inst_996EAD0C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="480" y="96" w="32" h="32" xo="16" yo="528" id="10000218" name="inst_B967617C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="512" y="96" w="32" h="32" xo="16" yo="528" id="10000219" name="inst_601BBCFC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -339,7 +337,6 @@
     <tile bgName="Background__Probe" x="448" y="128" w="32" h="32" xo="16" yo="528" id="10000359" name="inst_40A5FC23" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="352" y="160" w="32" h="32" xo="16" yo="528" id="10000363" name="inst_D7D289BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="160" w="32" h="32" xo="16" yo="528" id="10000364" name="inst_00E99B24" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Background__Probe" x="416" y="160" w="32" h="32" xo="16" yo="528" id="10000365" name="inst_F8BFFFAF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="416" y="192" w="32" h="32" xo="16" yo="528" id="10000366" name="inst_07C9F642" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="288" y="192" w="32" h="32" xo="16" yo="528" id="10000370" name="inst_5605271D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="320" y="192" w="32" h="32" xo="16" yo="528" id="10000371" name="inst_8AC90D21" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -353,7 +350,7 @@
     <tile bgName="Background__Probe" x="320" y="256" w="32" h="32" xo="16" yo="528" id="10000386" name="inst_3C23AF25" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="256" w="32" h="32" xo="16" yo="528" id="10000388" name="inst_2BC331FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="416" y="256" w="32" h="32" xo="16" yo="528" id="10000389" name="inst_297022C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Background__Probe" x="416" y="224" w="32" h="32" xo="16" yo="528" id="10000390" name="inst_3E68A5F1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Background__Probe" x="432" y="224" w="32" h="32" xo="16" yo="528" id="10000390" name="inst_3E68A5F1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="352" y="224" w="32" h="32" xo="16" yo="528" id="10000392" name="inst_E4B49106" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="224" w="32" h="32" xo="16" yo="528" id="10000393" name="inst_618876A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="352" y="256" w="32" h="32" xo="16" yo="528" id="10000394" name="inst_A90DFB9C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -378,8 +375,10 @@
     <tile bgName="Background__Probe" x="512" y="448" w="32" h="32" xo="16" yo="544" id="10000420" name="inst_94955EC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="224" y="0" w="32" h="32" xo="16" yo="512" id="10000421" name="inst_83B73A7B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="256" y="0" w="32" h="32" xo="16" yo="512" id="10000422" name="inst_6B0C59B0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Background__Probe" x="416" y="96" w="32" h="32" xo="16" yo="528" id="10000425" name="inst_7FDCD16C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="448" y="96" w="32" h="32" xo="16" yo="528" id="10000426" name="inst_40E2DB7A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="wef" x="416" y="224" w="161" h="161" xo="0" yo="0" id="10004327" name="inst_758F72A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="wef" x="432" y="176" w="161" h="161" xo="0" yo="0" id="10004333" name="inst_8AC05FA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="wef" x="400" y="112" w="161" h="161" xo="0" yo="0" id="10004335" name="inst_8082BED9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="64" w="32" h="32" xo="80" yo="528" id="10000427" name="inst_F78F5C53" depth="999990" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="96" w="32" h="32" xo="80" yo="528" id="10000428" name="inst_AC2070CE" depth="999990" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="160" w="32" h="32" xo="80" yo="528" id="10000438" name="inst_42F77743" depth="999990" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

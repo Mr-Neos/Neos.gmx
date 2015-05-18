@@ -9,10 +9,18 @@
   <sprites name="sprites">
     <sprites name="Party">
       <sprites name="Bad Men">
-        <sprite>sprites\Bad_Men_Down</sprite>
-        <sprite>sprites\Bad_Men_Left</sprite>
-        <sprite>sprites\Bad_Men_Right</sprite>
-        <sprite>sprites\Bad_Men_Up</sprite>
+        <sprites name="Walk">
+          <sprite>sprites\Bad_Men_Down</sprite>
+          <sprite>sprites\Bad_Men_Left</sprite>
+          <sprite>sprites\Bad_Men_Right</sprite>
+          <sprite>sprites\Bad_Men_Up</sprite>
+        </sprites>
+        <sprites name="Idle">
+          <sprite>sprites\Bad_Men_Idle_Down</sprite>
+          <sprite>sprites\Bad_Men_Idle_Left</sprite>
+          <sprite>sprites\Bad_Men_Idle_Right</sprite>
+          <sprite>sprites\Bad_Men_Idle_Up</sprite>
+        </sprites>
       </sprites>
       <sprites name="Nature">
         <sprite>sprites\Moving_Tree</sprite>
@@ -86,6 +94,9 @@
   <backgrounds name="background">
     <backgrounds name="Enviroment">
       <background>background\Background__Probe</background>
+      <background>background\wef</background>
+      <background>background\background25</background>
+      <background>background\Map001</background>
     </backgrounds>
     <backgrounds name="Levels">
       <backgrounds name="HomeCity">
@@ -111,16 +122,24 @@
         <background>background\Map005_1_1</background>
         <background>background\Map005_2_0</background>
         <background>background\Map005_2_1</background>
-        <background>background\Map005</background>
         <background>background\Map005_0_0</background>
         <background>background\Map005_1_0</background>
         <background>background\Map005_0_1</background>
       </backgrounds>
     </backgrounds>
+    <background>background\Principio</background>
+    <background>background\Casa_de_Aderumia</background>
+    <background>background\Pembers_Kampf_Gym</background>
+    <background>background\Bad_Men</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_Guard</path>
   </paths>
+  <scripts name="scripts">
+    <script>scripts\sc_Wordwarp.gml</script>
+    <script>scripts\string_lex_token.gml</script>
+    <script>scripts\string_lex_count.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="Party">
       <object>objects\obj_Bad_Men</object>
@@ -188,10 +207,15 @@
   <rooms name="rooms">
     <room>rooms\rm_Introscene</room>
     <room>rooms\rm_HomeCity</room>
+    <room>rooms\room0</room>
+    <room>rooms\room6</room>
     <room>rooms\rm_Pub</room>
     <room>rooms\rm_Forest</room>
-    <room>rooms\room0</room>
     <room>rooms\rm_cave</room>
+    <room>rooms\room8</room>
+    <room>rooms\room9</room>
+    <room>rooms\room10</room>
+    <room>rooms\room11</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
