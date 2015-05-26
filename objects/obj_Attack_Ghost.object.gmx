@@ -124,7 +124,7 @@ with(other){
 
     if(hp &lt;= 0){
         //Handle GAME OVER....
-        show_debug_message("you are dead GAME OVER lol");
+        instance_destroy();
     }
     
 }

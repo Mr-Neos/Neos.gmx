@@ -28,8 +28,7 @@
             <string>event_inherited();
 
 hasquest = false;
-message = "Hello señor que nunca he visto en mi vida, yo me llame Juancho de La Flor Lopez(con tilde) y este es mi Barrio asi que sera mejor que no te metas me has entendido???"
-
+message = "Hallo ich bin Kazumasutoyota der beschützer von Oruchibeda und ich werde nicht zullassen dass du oder irgendedjemand die zerstört"
 my_path = path_Guard;
 event_user(0);
 </string>

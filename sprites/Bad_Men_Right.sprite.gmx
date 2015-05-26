@@ -2,13 +2,13 @@
 <sprite>
   <type>0</type>
   <xorig>16</xorig>
-  <yorigin>32</yorigin>
+  <yorigin>16</yorigin>
   <colkind>1</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>26</bbox_right>
+  <bbox_left>4</bbox_left>
+  <bbox_right>27</bbox_right>
   <bbox_top>0</bbox_top>
   <bbox_bottom>31</bbox_bottom>
   <HTile>0</HTile>

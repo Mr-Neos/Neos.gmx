@@ -131,18 +131,15 @@
     <background>background\Casa_de_Aderumia</background>
     <background>background\Pembers_Kampf_Gym</background>
     <background>background\Bad_Men</background>
+    <background>background\Casa_en_el_interior_de_Aderumia</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_Guard</path>
   </paths>
-  <scripts name="scripts">
-    <script>scripts\sc_Wordwarp.gml</script>
-    <script>scripts\string_lex_token.gml</script>
-    <script>scripts\string_lex_count.gml</script>
-  </scripts>
   <objects name="objects">
     <objects name="Party">
       <object>objects\obj_Bad_Men</object>
+      <object>objects\Probe</object>
     </objects>
     <objects name="Nature">
       <object>objects\obj_Flower</object>
@@ -207,15 +204,16 @@
   <rooms name="rooms">
     <room>rooms\rm_Introscene</room>
     <room>rooms\rm_HomeCity</room>
+    <room>rooms\rm_Campo_de_inicio</room>
     <room>rooms\room0</room>
-    <room>rooms\room6</room>
+    <room>rooms\rm_Inicio</room>
     <room>rooms\rm_Pub</room>
     <room>rooms\rm_Forest</room>
     <room>rooms\rm_cave</room>
-    <room>rooms\room8</room>
-    <room>rooms\room9</room>
-    <room>rooms\room10</room>
-    <room>rooms\room11</room>
+    <room>rooms\rm_Campo_Secundario</room>
+    <room>rooms\rm_Pember</room>
+    <room>rooms\rm_old_man</room>
+    <room>rooms\rm_in_Aderumia</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -51,7 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Bad_Men" x="192" y="160" name="inst_8D406500" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tree" x="240" y="64" name="inst_A1F6C183" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tree" x="400" y="144" name="inst_54351EDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Tree" x="432" y="352" name="inst_FE320248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -77,6 +76,18 @@
     <instance objName="obj_Flower" x="512" y="80" name="inst_F809C88E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Flower" x="320" y="96" name="inst_8EF755A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Bad_Men_Reposition" x="0" y="0" name="inst_F86A7F8B" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Collision" x="16" y="0" name="inst_58438A90" locked="0" code="" scaleX="19.5" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Collision" x="0" y="0" name="inst_1F1CD311" locked="0" code="" scaleX="0.100000001490116" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Collision" x="0" y="224" name="inst_F6C71917" locked="0" code="" scaleX="0.100000001490116" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Collision" x="0" y="480" name="inst_56B174E5" locked="0" code="" scaleX="20" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Collision" x="640" y="16" name="inst_7C5BA9B6" locked="0" code="" scaleX="0.100000001490116" scaleY="14.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Collision" x="640" y="0" name="inst_E2924E18" locked="0" code="" scaleX="0.100000001490116" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_NPC_BOB" x="288" y="160" name="inst_5192885A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_369FEE1B" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_89AE2F1B" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_AE351837" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_DE372740" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
+    <instance objName="obj_Warp" x="0" y="160" name="inst_970CA531" locked="0" code="event_inherited();&#xA;dest_room = rm_HomeCity;&#xA;dest_x = 1184;&#xA;dest_y = 48;&#xA;" scaleX="0.100000001490116" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Background__Probe" x="0" y="0" w="32" h="32" xo="0" yo="512" id="10000001" name="inst_CA7352F4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -339,8 +350,6 @@
     <tile bgName="Background__Probe" x="384" y="160" w="32" h="32" xo="16" yo="528" id="10000364" name="inst_00E99B24" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="416" y="192" w="32" h="32" xo="16" yo="528" id="10000366" name="inst_07C9F642" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="288" y="192" w="32" h="32" xo="16" yo="528" id="10000370" name="inst_5605271D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Background__Probe" x="320" y="192" w="32" h="32" xo="16" yo="528" id="10000371" name="inst_8AC90D21" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Background__Probe" x="352" y="192" w="32" h="32" xo="16" yo="528" id="10000372" name="inst_2CA62DCC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="192" w="32" h="32" xo="16" yo="528" id="10000373" name="inst_18D1D3BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="480" y="224" w="32" h="32" xo="16" yo="528" id="10000376" name="inst_86A49CED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="448" y="224" w="32" h="32" xo="16" yo="528" id="10000377" name="inst_3423B656" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -348,11 +357,10 @@
     <tile bgName="Background__Probe" x="416" y="288" w="32" h="32" xo="16" yo="528" id="10000381" name="inst_F9E95EE2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="288" w="32" h="32" xo="16" yo="528" id="10000382" name="inst_5991D121" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="320" y="256" w="32" h="32" xo="16" yo="528" id="10000386" name="inst_3C23AF25" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Background__Probe" x="384" y="256" w="32" h="32" xo="16" yo="528" id="10000388" name="inst_2BC331FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Background__Probe" x="416" y="256" w="32" h="32" xo="16" yo="528" id="10000389" name="inst_297022C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Background__Probe" x="384" y="240" w="32" h="32" xo="16" yo="528" id="10000388" name="inst_2BC331FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="432" y="224" w="32" h="32" xo="16" yo="528" id="10000390" name="inst_3E68A5F1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="352" y="224" w="32" h="32" xo="16" yo="528" id="10000392" name="inst_E4B49106" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Background__Probe" x="384" y="224" w="32" h="32" xo="16" yo="528" id="10000393" name="inst_618876A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Background__Probe" x="416" y="240" w="32" h="32" xo="16" yo="528" id="10000393" name="inst_618876A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="352" y="256" w="32" h="32" xo="16" yo="528" id="10000394" name="inst_A90DFB9C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="352" y="288" w="32" h="32" xo="16" yo="528" id="10000395" name="inst_F0158093" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="320" y="288" w="32" h="32" xo="16" yo="528" id="10000396" name="inst_92FC5075" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -376,9 +384,12 @@
     <tile bgName="Background__Probe" x="224" y="0" w="32" h="32" xo="16" yo="512" id="10000421" name="inst_83B73A7B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="256" y="0" w="32" h="32" xo="16" yo="512" id="10000422" name="inst_6B0C59B0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="448" y="96" w="32" h="32" xo="16" yo="528" id="10000426" name="inst_40E2DB7A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="wef" x="416" y="224" w="161" h="161" xo="0" yo="0" id="10004327" name="inst_758F72A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="wef" x="432" y="176" w="161" h="161" xo="0" yo="0" id="10004333" name="inst_8AC05FA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="wef" x="400" y="112" w="161" h="161" xo="0" yo="0" id="10004335" name="inst_8082BED9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Background__Probe" x="320" y="192" w="32" h="32" xo="192" yo="64" id="10004345" name="inst_E63FF662" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Background__Probe" x="352" y="192" w="32" h="32" xo="192" yo="64" id="10004346" name="inst_578BE0C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Background__Probe" x="384" y="224" w="32" h="32" xo="192" yo="64" id="10004347" name="inst_6E4AD46D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Background__Probe" x="416" y="224" w="32" h="32" xo="192" yo="64" id="10004348" name="inst_62AB9AA0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Background__Probe" x="384" y="272" w="32" h="32" xo="192" yo="64" id="10004349" name="inst_6445F8EE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Background__Probe" x="416" y="272" w="32" h="32" xo="192" yo="64" id="10004350" name="inst_748DA31A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="64" w="32" h="32" xo="80" yo="528" id="10000427" name="inst_F78F5C53" depth="999990" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="96" w="32" h="32" xo="80" yo="528" id="10000428" name="inst_AC2070CE" depth="999990" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Background__Probe" x="384" y="160" w="32" h="32" xo="80" yo="528" id="10000438" name="inst_42F77743" depth="999990" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -430,9 +430,12 @@
     <instance objName="obj_Collision" x="160" y="672" name="inst_EAFE244A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="160" y="640" name="inst_6D7B6F1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Collision" x="192" y="640" name="inst_5527ACED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Warp" x="928" y="128" name="inst_D2229502" locked="0" code="event_inherited();&#xA;dest_room = rm_Campo_Secundario;&#xA;dest_x = 0;&#xA;dest_y = 1088;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bad_Men_Reposition" x="0" y="0" name="inst_4258ECEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bad_Men" x="256" y="864" name="inst_A8E5C161" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
-  <PhysicsWorld>0</PhysicsWorld>
+  <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
   <PhysicsWorldRight>1024</PhysicsWorldRight>
